@@ -8,6 +8,7 @@ phoneno=int(input("Enter Your Phone_Number\n "))
 orderid=random.randint(1111111,999999999)
 list1=[]
 
+#here are the funcyions for each food menu
 def food():
     with open('Food.csv', 'r') as csv_file:
         read = csv.reader(csv_file)
